@@ -1,12 +1,12 @@
 import { Sidebar } from "@/components/sidebar"
-import { LoansPage } from "@/components/loans-page"
+import { CardPage } from "@/components/card-page"
 
-export default function Home() {
+export default function Card() {
   return (
     <div className="flex h-screen bg-background">
       <Sidebar />
       <main className="flex-1 overflow-auto">
-        <LoansPage />
+        <CardPage />
       </main>
     </div>
   )
